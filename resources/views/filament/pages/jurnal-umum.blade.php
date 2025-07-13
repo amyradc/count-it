@@ -20,8 +20,8 @@
             </div>
         @else
     <div class="text-center mb-4 leading-snug">
-    <h2 class="text-2xl font-extrabold text-gray-800 tracking-tight">JURNAL UMUM</h2>
-    <h3 class="text-lg font-semibold text-indigo-700">Cafe D'Klakon</h3>
+    <h2 class="text-2xl font-extrabold text-gray-800 tracking-tight">Cafe D'Klakon</h2>
+    <h3 class="text-lg font-semibold text-indigo-700">Jurnal Umum</h3>
     <p class="text-sm text-gray-600">
         Periode: {{ \Carbon\Carbon::createFromFormat('Y-m', $bulan)->translatedFormat('F Y') }}
     </p>
